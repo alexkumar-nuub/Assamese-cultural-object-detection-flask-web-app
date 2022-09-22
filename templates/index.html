@@ -1,0 +1,22 @@
+<head>
+	<title>Assames eCultural Object Detection</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"></link>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}" type="image/x-icon"> 
+</head>
+
+<body>
+	<div class="box">
+    	<form id ="form" method="POST" class="form" onsubmit="checkImage()">
+
+			<h2>Object Detection Flask</h2>
+
+			<input id="file" class="upload-btn" type="file" name="upload" accept="image/png, image/jpeg" multiple="false">
+
+            <button id="submit_btn" class="submit-btn">Detect</button>
+
+    	</form>
+	</div>
+
+</body>
+
+<script type="text/javascript" src="{{ url_for('static', filename='js/script.js') }}"></script>
