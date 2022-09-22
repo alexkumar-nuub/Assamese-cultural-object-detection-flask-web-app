@@ -1,0 +1,7 @@
+flask
+numpy
+torch
+Pillow
+torchvision
+requests
+imageio
